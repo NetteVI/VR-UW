@@ -1,0 +1,1080 @@
+﻿Log file open, 05/03/17 16:21:18
+LogInit:Display: Running engine for game: VRProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1943286269) SRandInit(-1943286269).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.341301
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.03-23.21.21:358][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2017.05.03-23.21.21:368][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.03-23.21.21:368][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.03-23.21.21:403][  0]LogInit: Computer: LENOVO-PC
+[2017.05.03-23.21.21:403][  0]LogInit: User: Diana
+[2017.05.03-23.21.21:403][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.03-23.21.21:403][  0]LogInit: High frequency timer resolution =2.533192 MHz
+[2017.05.03-23.21.21:404][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.03-23.21.21:404][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.03-23.21.21:404][  0]LogMemory: Process Physical Memory: 263.04 MB used, 263.04 MB peak
+[2017.05.03-23.21.21:404][  0]LogMemory: Process Virtual Memory: 262.39 MB used, 262.39 MB peak
+[2017.05.03-23.21.21:404][  0]LogMemory: Physical Memory: 4781.17 MB used,  3323.11 MB free, 8104.27 MB total
+[2017.05.03-23.21.21:404][  0]LogMemory: Virtual Memory: 643.25 MB used,  3323.11 MB free, 134217728.00 MB total
+[2017.05.03-23.21.21:736][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.03-23.21.24:700][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.03-23.21.24:723][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.05.03-23.21.24:723][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.03-23.21.24:729][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.03-23.21.24:729][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.03-23.21.24:729][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.03-23.21.24:746][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.03-23.21.24:747][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.03-23.21.24:747][  0]LogWindows: EnumDisplayDevices:
+[2017.05.03-23.21.24:747][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.05.03-23.21.24:748][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.03-23.21.24:749][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.03-23.21.24:749][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.03-23.21.24:749][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.05.03-23.21.24:749][  0]LogD3D11RHI:   Driver Version: 10.18.15.4279 (internal:10.18.15.4279, unified:10.18.15.4279)
+[2017.05.03-23.21.24:749][  0]LogD3D11RHI:      Driver Date: 8-24-2015
+[2017.05.03-23.21.24:749][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.05.03-23.21.24:766][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.03-23.21.24:782][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.05.03-23.21.24:784][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Intermediate/Shaders/WorkingDirectory/10236/).
+[2017.05.03-23.21.24:785][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Diana/AppData/Local/Temp/UnrealShaderWorkingDir/AAE883494629145FBD2FB78590D200F8/'.
+[2017.05.03-23.21.24:785][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.03-23.21.29:754][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.03-23.21.30:000][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.03-23.21.30:241][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.03-23.21.30:486][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.03-23.21.30:732][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.03-23.21.31:033][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.03-23.21.31:345][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.03-23.21.31:653][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.03-23.21.31:901][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.03-23.21.32:189][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.03-23.21.32:448][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.03-23.21.32:739][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.03-23.21.33:062][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.03-23.21.33:359][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.03-23.21.33:689][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.03-23.21.34:523][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.03-23.21.34:523][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.03-23.21.34:798][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.03-23.21.35:326][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.03-23.21.35:526][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.03-23.21.35:890][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.03-23.21.36:202][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.03-23.21.36:558][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.03-23.21.36:838][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.03-23.21.36:838][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.03-23.21.38:829][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.03-23.21.39:043][  0]LogDerivedDataCache: Loaded boot cache 0.21s 61MB C:/Users/Diana/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.03-23.21.39:043][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diana/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.03-23.21.39:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.03-23.21.39:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.03-23.21.39:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.03-23.21.39:044][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.03-23.21.39:123][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.03-23.21.39:139][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diana/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.03-23.21.39:176][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.03-23.21.39:178][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.03-23.21.39:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.03-23.21.40:540][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.03-23.21.40:550][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.03-23.21.41:453][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.03-23.21.41:656][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.03-23.21.41:872][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.03-23.21.41:872][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.03-23.21.41:872][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.03-23.21.44:048][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: vrproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2635692910
+[2017.05.03-23.21.44:182][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2017.05.03-23.21.44:447][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.129543 seconds
+[2017.05.03-23.21.44:471][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.03-23.21.44:471][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.03-23.21.44:471][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.03-23.21.44:777][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.03-23.21.52:527][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.03-23.21.52:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.03-23.21.53:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.03-23.21.55:067][  0]SourceControl: Info Source control is disabled
+[2017.05.03-23.21.55:234][  0]SourceControl: Info Source control is disabled
+[2017.05.03-23.21.55:373][  0]SourceControl: Info Source control is disabled
+[2017.05.03-23.21.55:512][  0]SourceControl: Info Source control is disabled
+[2017.05.03-23.21.58:833][  0]LogEngine: Initializing Engine...
+[2017.05.03-23.21.58:835][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.03-23.22.00:189][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.03-23.22.00:223][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.03-23.22.00:320][  0]LogInit: FAudioDevice initialized.
+[2017.05.03-23.22.00:428][  0]LogDerivedDataCache: Saved boot cache 0.11s 61MB C:/Users/Diana/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.03-23.22.00:454][  0]LogInit: Texture streaming: Enabled
+[2017.05.03-23.22.00:896][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.03-23.22.01:296][  0]LogInit: Transaction tracking system initialized
+[2017.05.03-23.22.02:884][  0]BlueprintLog: New page: Editor Load
+[2017.05.03-23.22.07:168][  0]LocalizationService: Info Localization service is disabled
+[2017.05.03-23.22.10:454][  0]LogConsoleResponse:Display: 
+[2017.05.03-23.22.11:079][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.03-23.22.11:079][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.03-23.22.12:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/' took 0.02s
+[2017.05.03-23.22.16:105][  0]SourceControl: Info Source control is disabled
+[2017.05.03-23.22.16:105][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.03-23.22.16:106][  0]LightingResults: New page: Lighting Build
+[2017.05.03-23.22.16:290][  0]MapCheck: New page: Map Check
+[2017.05.03-23.22.16:290][  0]LightingResults: New page: Lighting Build
+[2017.05.03-23.22.16:611][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.05.03-23.22.16:713][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.03-23.22.16:720][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.03-23.22.16:996][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 275.739ms to complete.
+[2017.05.03-23.22.16:996][  0]LogFileHelpers: Loading map 'StartupMap' took 0.892
+[2017.05.03-23.22.17:643][  0]LogCollectionManager: Loaded 0 collections in 0.005499 seconds
+[2017.05.03-23.22.17:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Saved/Collections/' took 0.01s
+[2017.05.03-23.22.17:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/Developers/Diana/Collections/' took 0.01s
+[2017.05.03-23.22.17:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/Collections/' took 0.01s
+[2017.05.03-23.22.17:877][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.05.03-23.22.17:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0359 seconds. Added 2245 classes and 453 folders.
+[2017.05.03-23.22.17:931][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.03-23.22.17:931][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.03-23.22.18:209][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.05.03-23.22.18:369][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.05.03-23.22.18:581][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.05.03-23.22.18:783][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.03-23.22.18:810][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.03-23.22.19:061][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.05.03-23.22.19:062][  0]LogLoad: (Engine Initialization) Total time: 65.10 seconds
+[2017.05.03-23.22.19:062][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.05.03-23.22.19:062][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.03-23.22.19:062][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.03-23.22.19:404][  0]LogOcInput: OculusInput pre-init called
+[2017.05.03-23.22.19:432][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.03-23.22.19:439][  0]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.03-23.22.19:454][  0]LogSlate: Took 0.001030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.03-23.22.19:477][  0]LogSlate: Took 0.001047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.03-23.22.20:267][  1]LogRenderer: Reallocating scene render targets to support 796x344 NumSamples 1 (Frame:2).
+[2017.05.03-23.22.20:267][  1]LogSlate: Took 0.000682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.03-23.22.21:589][  3]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.03-23.22.21:591][  3]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.03-23.22.21:591][  3]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2017.05.03-23.22.22:661][  7]LogAssetRegistry: Asset discovery search completed in 38.5025 seconds
+[2017.05.03-23.22.22:662][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000026 seconds (found 0 objects)
+[2017.05.03-23.22.22:662][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2017.05.03-23.25.53:826][118]SourceControl: Info On branch master
+[2017.05.03-23.25.53:826][118]SourceControl: Info Changes to be committed:
+[2017.05.03-23.25.53:826][118]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.05.03-23.25.53:826][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.03-23.25.53:826][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject.log
+[2017.05.03-23.25.53:826][118]SourceControl: Info Changes not staged for commit:
+[2017.05.03-23.25.53:826][118]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.03-23.25.53:826][118]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.03-23.25.53:826][118]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultEditor.ini
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultEditorPerProjectUserSettings.ini
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultEngine.ini
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultGame.ini
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultInput.ini
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultScalability.ini
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/1M_Cube.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/TemplateFloor.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM+Button_Anger.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Disgust.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Fear.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Joy.uasset
+[2017.05.03-23.25.53:827][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Sadness.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Surprise.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/GenericHMDMaterial.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/L_Dial.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MF_OccludedPixels.uasset
+[2017.05.03-23.25.53:828][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MI_SmallCubes.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_ArcEndpoint.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_BaseMaterial.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Anger.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Disgust.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Fear.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Fear2.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Joy.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Joy2.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Sadness.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Surprise.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Surprise2.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_SplineArcMat.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_TeleportPreviews.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/TeleportMCP.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/anger.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/disgust.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/fear.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/joy.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/sadness.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/surprise.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/1x1_cube.uasset
+[2017.05.03-23.25.53:829][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/BeaconDirection.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/BeamMesh.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/GenericHMD.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/SM_FatCylinder.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/BP_Joy_Button.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/Dial.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/Emotion_Button.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/GripEnum.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/HMDLocomotionPawn.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/NewWidgetBlueprint.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/VirtualRealityPawn.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/1d5167fa.bin
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/2657c409.bin
+[2017.05.03-23.25.53:830][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/5a627529.bin
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/866581fd.bin
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/8c0e1344.bin
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/94c5d5a7.bin
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/CachedAssetRegistry.bin
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Compat.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/GameplayTags.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/GameplayTagsList.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Hardware.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini
+[2017.05.03-23.25.53:831][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/TemplateDefs.ini
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/TranslationPickerSettings.ini
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/ReimportCache/3688439234.bin
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/AutoScreenshot.png
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM+Button_Anger_Auto4.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Disgust_Auto4.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Fear_Auto4.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Joy_Auto4.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Sadness_Auto4.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Surprise_Auto4.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/L_Dial_Auto2.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Anger_Auto9.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Disgust_Auto7.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Disgust_Auto9.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Fear2_Auto7.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Fear_Auto9.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy2_Auto6.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto1.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto3.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto5.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto7.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto9.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Inst_Auto6.uasset
+[2017.05.03-23.25.53:832][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Surprise2_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Surprise_Auto9.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/NewTouchInterface_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/anger_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/anger_Auto3.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/anger_Auto6.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/disgust_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/disgust_Auto3.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/disgust_Auto6.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/fear_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/fear_Auto3.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/fear_Auto6.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto0.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto3.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto4.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto5.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto6.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto8.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto9.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/sadness_Auto1.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/sadness_Auto3.uasset
+[2017.05.03-23.25.53:833][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/sadness_Auto6.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/surprise_Auto1.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/surprise_Auto3.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/surprise_Auto6.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Joy_Button_Auto3.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Joy_Button_Auto4.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Joy_Button_Auto5.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_MotionController_Auto3.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_MotionController_Auto4.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Dial_Auto1.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Dial_Auto2.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Emotion_Button_Auto2.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Joy_Button_Auto1.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/NewWidgetBlueprint_Auto1.uasset
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto0.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto5.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto6.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto7.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto8.umap
+[2017.05.03-23.25.53:834][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto9.umap
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto0.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto2.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto5.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto9.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/PackageRestoreData.json
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/BP_Joy_Button_2017-05-03-15-56-41.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/BP_MotionController_2017-05-02-08-34-28.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/BP_MotionController_2017-05-02-08-44-35.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/Dial_2017-05-03-15-14-30.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/Dial_2017-05-03-15-24-31.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Anger_2017-05-02-09-47-48.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Anger_2017-05-02-13-05-36.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Disgust_2017-05-02-09-20-47.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Disgust_2017-05-02-09-47-48.uasset
+[2017.05.03-23.25.53:835][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Disgust_2017-05-02-13-05-36.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Fear_2017-05-02-09-09-57.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Fear_2017-05-02-09-47-48.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Fear_2017-05-02-13-05-36.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-05-45-36.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-06-05-42.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-07-19-57.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-07-49-44.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-08-14-17.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-08-56-06.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-09-47-48.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-13-05-36.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-03-14-59-13.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-03-15-08-00.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Surprise_2017-05-02-09-25-30.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Surprise_2017-05-02-09-47-48.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Surprise_2017-05-02-13-05-36.uasset
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-07-19-56.umap
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-01-06.umap
+[2017.05.03-23.25.53:836][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-14-16.umap
+[2017.05.03-23.25.53:837][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-24-26.umap
+[2017.05.03-23.25.53:837][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-56-05.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-10-01.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-20-47.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-26-35.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-37-05.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-47-48.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-57-58.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-13-05-37.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-03-15-14-29.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-03-15-36-35.umap
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-08-24-27.uasset
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-08-56-06.uasset
+[2017.05.03-23.25.53:838][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-09-26-36.uasset
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-09-47-48.uasset
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-09-57-59.uasset
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-13-05-38.uasset
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Compat.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/DeviceProfiles.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Editor.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Engine.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Game.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/GameUserSettings.ini
+[2017.05.03-23.25.53:839][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/GameplayTags.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/GameplayTagsList.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Hardware.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Input.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/InternationalizationExport.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Lightmass.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/LocalizationServiceSettings.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Scalability.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/SourceControlSettings.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/TemplateDefs.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/TranslationPickerSettings.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/WorldState/1379276767.json
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-00259A7846AE3F066A9D12A1797E2EA0/CrashReportClient.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-150FC5F4454F898A87EACD9D91F1A1CB/CrashReportClient.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB/CrashReportClient.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/CrashContext.runtime-xml
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/CrashReportClient.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/UE4Minidump.dmp
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/VRProject.log
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64/CrashReportClient.ini
+[2017.05.03-23.25.53:840][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/CrashContext.runtime-xml
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/UE4Minidump.dmp
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/VRProject.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/CrashContext.runtime-xml
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/UE4Minidump.dmp
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/VRProject.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-AB3566334589F52445D401A95067097F/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-ABD3C41046EA23C00DA0DA8ECBBD5F5C/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-E1155CF3450D9582C4FAB4B89A9AF9EE/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-F327C98D4EE2767B728453887A6DFBA2/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/CrashContext.runtime-xml
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/CrashReportClient.ini
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/UE4Minidump.dmp
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/VRProject.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.02-00.24.55.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.02-03.56.02.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.02-04.22.55.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-14.46.12.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-15.02.24.log
+[2017.05.03-23.25.53:841][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.00.53.log
+[2017.05.03-23.25.53:842][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.05.52.log
+[2017.05.03-23.25.53:842][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.12.10.log
+[2017.05.03-23.25.53:842][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.21.18.log
+[2017.05.03-23.25.53:842][118]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject.log
+[2017.05.03-23.25.53:842][118]SourceControl: Info 	modified:   Diana/VRProject/VRProject.uproject
+[2017.05.03-23.26.27:872][835]SourceControl: Info On branch master
+[2017.05.03-23.26.27:872][835]SourceControl: Info Changes to be committed:
+[2017.05.03-23.26.27:872][835]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.05.03-23.26.27:872][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.03-23.26.27:873][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject.log
+[2017.05.03-23.26.27:873][835]SourceControl: Info Changes not staged for commit:
+[2017.05.03-23.26.27:873][835]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.03-23.26.27:873][835]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.03-23.26.27:873][835]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultEditor.ini
+[2017.05.03-23.26.27:873][835]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultEditorPerProjectUserSettings.ini
+[2017.05.03-23.26.27:873][835]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultEngine.ini
+[2017.05.03-23.26.27:873][835]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultGame.ini
+[2017.05.03-23.26.27:873][835]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultInput.ini
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Config/DefaultScalability.ini
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/1M_Cube.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Geometry/Meshes/TemplateFloor.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM+Button_Anger.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Disgust.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Fear.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Joy.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Sadness.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/Meshes/SM_Button_Surprise.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset
+[2017.05.03-23.26.27:874][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/GenericHMDMaterial.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/L_Dial.uasset
+[2017.05.03-23.26.27:875][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MF_OccludedPixels.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MI_SmallCubes.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_ArcEndpoint.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_BaseMaterial.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Anger.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Disgust.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Fear.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Fear2.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Joy.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Joy2.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Sadness.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Surprise.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_Button_Surprise2.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_SplineArcMat.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/M_TeleportPreviews.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/TeleportMCP.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/anger.uasset
+[2017.05.03-23.26.27:876][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/disgust.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/fear.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/joy.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/sadness.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Materials/surprise.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/1x1_cube.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/BeaconDirection.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/BeamMesh.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/GenericHMD.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualReality/Meshes/SM_FatCylinder.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/BP_Joy_Button.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/Dial.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/Emotion_Button.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/GripEnum.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/HMDLocomotionPawn.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.05.03-23.26.27:877][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/NewWidgetBlueprint.uasset
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Blueprints/VirtualRealityPawn.uasset
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.uasset
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/1d5167fa.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/2657c409.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/5a627529.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/866581fd.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/8c0e1344.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/AssetRegistryCache/94c5d5a7.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/CachedAssetRegistry.bin
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Compat.ini
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2017.05.03-23.26.27:878][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/GameplayTags.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/GameplayTagsList.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Hardware.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/TemplateDefs.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/Config/CoalescedSourceConfigs/TranslationPickerSettings.ini
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Intermediate/ReimportCache/3688439234.bin
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/AutoScreenshot.png
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM+Button_Anger_Auto4.uasset
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Disgust_Auto4.uasset
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Fear_Auto4.uasset
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Joy_Auto4.uasset
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Sadness_Auto4.uasset
+[2017.05.03-23.26.27:879][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/Meshes/SM_Button_Surprise_Auto4.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/L_Dial_Auto2.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Anger_Auto9.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Disgust_Auto7.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Disgust_Auto9.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Fear2_Auto7.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Fear_Auto9.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy2_Auto6.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto1.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto3.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto5.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto7.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Auto9.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Joy_Inst_Auto6.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Surprise2_Auto1.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/M_Button_Surprise_Auto9.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/NewTouchInterface_Auto1.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/anger_Auto1.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/anger_Auto3.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/anger_Auto6.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/disgust_Auto1.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/disgust_Auto3.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/disgust_Auto6.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/fear_Auto1.uasset
+[2017.05.03-23.26.27:880][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/fear_Auto3.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/fear_Auto6.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto0.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto1.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto3.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto4.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto5.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto6.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto8.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/joy_Auto9.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/sadness_Auto1.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/sadness_Auto3.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/sadness_Auto6.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/surprise_Auto1.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/surprise_Auto3.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualReality/Materials/surprise_Auto6.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Joy_Button_Auto3.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Joy_Button_Auto4.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Joy_Button_Auto5.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_MotionController_Auto3.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_MotionController_Auto4.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Dial_Auto1.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Dial_Auto2.uasset
+[2017.05.03-23.26.27:881][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Emotion_Button_Auto2.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Joy_Button_Auto1.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/NewWidgetBlueprint_Auto1.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto0.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto5.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto6.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto7.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto8.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto9.umap
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto0.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto2.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto5.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto9.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Autosaves/PackageRestoreData.json
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/BP_Joy_Button_2017-05-03-15-56-41.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/BP_MotionController_2017-05-02-08-34-28.uasset
+[2017.05.03-23.26.27:882][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/BP_MotionController_2017-05-02-08-44-35.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/Dial_2017-05-03-15-14-30.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/Dial_2017-05-03-15-24-31.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Anger_2017-05-02-09-47-48.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Anger_2017-05-02-13-05-36.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Disgust_2017-05-02-09-20-47.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Disgust_2017-05-02-09-47-48.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Disgust_2017-05-02-13-05-36.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Fear_2017-05-02-09-09-57.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Fear_2017-05-02-09-47-48.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Fear_2017-05-02-13-05-36.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-05-45-36.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-06-05-42.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-07-19-57.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-07-49-44.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-08-14-17.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-08-56-06.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-09-47-48.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-02-13-05-36.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-03-14-59-13.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Joy_2017-05-03-15-08-00.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Surprise_2017-05-02-09-25-30.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Surprise_2017-05-02-09-47-48.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/M_Button_Surprise_2017-05-02-13-05-36.uasset
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-07-19-56.umap
+[2017.05.03-23.26.27:883][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-01-06.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-14-16.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-24-26.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-08-56-05.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-10-01.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-20-47.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-26-35.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-37-05.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-47-48.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-09-57-58.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-02-13-05-37.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-03-15-14-29.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_2017-05-03-15-36-35.umap
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-08-24-27.uasset
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-08-56-06.uasset
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-09-26-36.uasset
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-09-47-48.uasset
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-09-57-59.uasset
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Backup/MotionControllerMap_BuiltData_2017-05-02-13-05-38.uasset
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Compat.ini
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/DeviceProfiles.ini
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Editor.ini
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Engine.ini
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Game.ini
+[2017.05.03-23.26.27:884][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/GameUserSettings.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/GameplayTags.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/GameplayTagsList.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Hardware.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Input.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/InternationalizationExport.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Lightmass.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/LocalizationServiceSettings.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/Scalability.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/SourceControlSettings.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/TemplateDefs.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/Windows/TranslationPickerSettings.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Config/WorldState/1379276767.json
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-00259A7846AE3F066A9D12A1797E2EA0/CrashReportClient.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-150FC5F4454F898A87EACD9D91F1A1CB/CrashReportClient.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB/CrashReportClient.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/CrashContext.runtime-xml
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/CrashReportClient.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/UE4Minidump.dmp
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-2AECCBEF4FF341CE8033648DA72AD4EB_0000/VRProject.log
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64/CrashReportClient.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/CrashContext.runtime-xml
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/CrashReportClient.ini
+[2017.05.03-23.26.27:885][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/UE4Minidump.dmp
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-8F8D200441B4F3A436F72E8219592C64_0000/VRProject.log
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/CrashContext.runtime-xml
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/UE4Minidump.dmp
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-9BEA763D4C18C0C9EBCD3DB4B96E6AFA_0000/VRProject.log
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-AB3566334589F52445D401A95067097F/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-ABD3C41046EA23C00DA0DA8ECBBD5F5C/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-E1155CF3450D9582C4FAB4B89A9AF9EE/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-F327C98D4EE2767B728453887A6DFBA2/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/CrashContext.runtime-xml
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/CrashReportClient.ini
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/UE4Minidump.dmp
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/UE4CC-Windows-FC13D68D447415365A0F88B76F6577AA_0000/VRProject.log
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.02-00.24.55.log
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.02-03.56.02.log
+[2017.05.03-23.26.27:886][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.02-04.22.55.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-14.46.12.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-15.02.24.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.00.53.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.05.52.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.12.10.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject-backup-2017.05.03-16.21.18.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/Saved/Logs/VRProject.log
+[2017.05.03-23.26.27:887][835]SourceControl: Info 	modified:   Diana/VRProject/VRProject.uproject
+[2017.05.03-23.26.31:775][988]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.05.03-23.26.32:097][988]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/VRProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.03-23.26.32:570][988]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.472 s
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: 
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/VRProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: Stack: 
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E01695E6
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DFF19B82
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DFF2B666
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E463A6B8
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000EF113D22
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000EF113EB9
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000D9011D2E
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000D8FCB4B5
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000D8FCAA8D
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000D8FDF274
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000B9E4B851
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000B9E5D1ED
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000EF119C5C
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DCF77517
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DD782086
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor.exe!0x000000007DAFDEE3
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor.exe!0x000000007DAEEB40
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor.exe!0x000000007DAEEBBA
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor.exe!0x000000007DB00A29
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: UE4Editor.exe!0x000000007DB022B6
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: KERNEL32.DLL!0x000000002AE18364
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: ntdll.dll!0x000000002BC370D1
+[2017.05.03-23.26.32:570][988]LogOutputDevice:Error: 
+[2017.05.03-23.26.32:579][988]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.03-23.26.33:495][988]LogStats:                    SendNewReport -  0.916 s
+[2017.05.03-23.26.33:495][988]LogStats:             FDebug::EnsureFailed -  1.397 s
+[2017.05.03-23.26.49:778][243]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.05.03-23.28.29:439][165]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.05.03-23.28.45:998][332]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.05.03-23.28.48:933][438]SourceControl: Info Source control is disabled
+[2017.05.03-23.29.06:461][ 87]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.05.03-23.29.37:421][115]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.05.03-23.30.00:991][775]SourceControl: Info Source control is disabled
+[2017.05.03-23.30.41:295][339]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.03-23.30.41:295][339]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.03-23.30.41:729][340]Cmd: QUIT_EDITOR
+[2017.05.03-23.30.41:963][340]LogExit: Preparing to exit.
+[2017.05.03-23.30.42:833][340]LogDirectoryWatcher: A directory notification for 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/' was aborted.
+[2017.05.03-23.30.42:884][340]LogExit: Editor shut down
+[2017.05.03-23.30.42:885][340]LogExit: Transaction tracking system shut down
+[2017.05.03-23.30.43:045][340]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.03-23.30.43:045][340]LogExit: Object subsystem successfully closed.
+[2017.05.03-23.30.43:087][340]LogD3D11RHI: Shutdown
+[2017.05.03-23.30.43:088][340]LogD3D11RHI: CleanupD3DDevice
+[2017.05.03-23.30.43:721][340]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.03-23.30.43:800][340]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.03-23.30.43:800][340]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.03-23.30.43:801][340]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.03-23.30.43:801][340]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.03-23.30.43:801][340]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.03-23.30.43:805][340]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.03-23.30.43:805][340]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.03-23.30.43:805][340]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.03-23.30.43:805][340]LogDirectoryWatcher: A directory notification for 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/Collections/' was aborted.
+[2017.05.03-23.30.43:805][340]LogDirectoryWatcher: A directory notification for 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/Developers/Diana/Collections/' was aborted.
+[2017.05.03-23.30.43:806][340]LogDirectoryWatcher: A directory notification for 'C:/Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Saved/Collections/' was aborted.
+[2017.05.03-23.30.43:807][340]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.03-23.30.43:807][340]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.03-23.30.43:807][340]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.03-23.30.43:807][340]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.03-23.30.43:808][340]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.03-23.30.43:809][340]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.03-23.30.43:810][340]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.03-23.30.43:811][340]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.03-23.30.43:965][340]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.03-23.30.43:966][340]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.03-23.30.43:967][340]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.03-23.30.44:020][340]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.03-23.30.44:020][340]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.03-23.30.44:020][340]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.03-23.30.44:020][340]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.03-23.30.44:020][340]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.03-23.30.44:020][340]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.03-23.30.44:021][340]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.03-23.30.44:087][340]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.03-23.30.44:088][340]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.03-23.30.44:089][340]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.03-23.30.44:089][340]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.03-23.30.44:089][340]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.03-23.30.44:089][340]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.03-23.30.44:089][340]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.03-23.30.44:089][340]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.03-23.30.44:091][340]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.03-23.30.44:091][340]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.03-23.30.44:092][340]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.03-23.30.44:093][340]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.03-23.30.44:096][340]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.03-23.30.44:096][340]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.03-23.30.44:096][340]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.03-23.30.44:096][340]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.03-23.30.44:197][340]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.03-23.30.44:298][340]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.03-23.30.44:299][340]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.03-23.30.44:300][340]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.03-23.30.44:300][340]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.03-23.30.44:300][340]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.03-23.30.44:300][340]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.03-23.30.44:300][340]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.03-23.30.44:310][340]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.03-23.30.44:310][340]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.03-23.30.44:310][340]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.03-23.30.44:310][340]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.03-23.30.44:310][340]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.03-23.30.44:310][340]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.03-23.30.44:537][340]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.03-23.30.44:538][340]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Diana/Documents/Unreal Projects/UW/Diana/VRProject/Content/' was aborted.
+[2017.05.03-23.30.44:538][340]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.03-23.30.44:539][340]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.03-23.30.44:541][340]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.03-23.30.44:608][340]LogDerivedDataCache: Shutdown
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.03-23.30.44:608][340]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.03-23.30.44:609][340]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.03-23.30.44:610][340]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.03-23.30.44:611][340]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.03-23.30.44:611][340]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.03-23.30.44:611][340]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.03-23.30.44:611][340]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.03-23.30.44:611][340]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.03-23.30.44:611][340]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54054DBA-4CD4-31FD-F255-C2B607DE7FE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=cb8839d540d79ab94dbbc1bd69bca4a9%7C76af52a5f346444c9388d86a7c9020ba%7Ca6b9ed94-4e2a-4c8f-9d68-f2da495617d5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.03-23.30.44:635][340]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.03-23.30.44:639][340]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.03-23.30.44:639][340]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.03-23.30.44:640][340]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.03-23.30.44:640][340]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.03-23.30.44:640][340]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.03-23.30.44:642][340]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.03-23.30.44:643][340]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.03-23.30.44:646][340]LogExit: Exiting.
+[2017.05.03-23.30.44:651][340]Log file closed, 05/03/17 16:30:44
