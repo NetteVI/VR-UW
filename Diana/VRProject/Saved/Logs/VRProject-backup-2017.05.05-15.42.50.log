@@ -1,0 +1,729 @@
+﻿Log file open, 05/05/17 15:28:37
+LogInit:Display: Running engine for game: VRProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(524760630) SRandInit(524760630).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.163352
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.05-22.28.40:166][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2017.05.05-22.28.40:175][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-22.28.40:176][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.05-22.28.40:212][  0]LogInit: Computer: LENOVO-PC
+[2017.05.05-22.28.40:212][  0]LogInit: User: Diana
+[2017.05.05-22.28.40:212][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.05-22.28.40:212][  0]LogInit: High frequency timer resolution =2.533199 MHz
+[2017.05.05-22.28.40:213][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.05-22.28.40:213][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.05-22.28.40:213][  0]LogMemory: Process Physical Memory: 263.13 MB used, 263.13 MB peak
+[2017.05.05-22.28.40:213][  0]LogMemory: Process Virtual Memory: 262.32 MB used, 262.32 MB peak
+[2017.05.05-22.28.40:213][  0]LogMemory: Physical Memory: 4353.61 MB used,  3750.66 MB free, 8104.27 MB total
+[2017.05.05-22.28.40:213][  0]LogMemory: Virtual Memory: 643.25 MB used,  3750.66 MB free, 134217728.00 MB total
+[2017.05.05-22.28.40:518][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.05-22.28.42:967][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.05-22.28.42:992][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.05.05-22.28.42:992][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.05-22.28.42:998][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.05-22.28.42:998][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.05-22.28.42:998][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.05-22.28.43:018][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.05-22.28.43:018][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.05-22.28.43:018][  0]LogWindows: EnumDisplayDevices:
+[2017.05.05-22.28.43:018][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.05.05-22.28.43:019][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.05-22.28.43:020][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.05-22.28.43:020][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.05-22.28.43:020][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.05.05-22.28.43:020][  0]LogD3D11RHI:   Driver Version: 10.18.15.4279 (internal:10.18.15.4279, unified:10.18.15.4279)
+[2017.05.05-22.28.43:020][  0]LogD3D11RHI:      Driver Date: 8-24-2015
+[2017.05.05-22.28.43:021][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.05.05-22.28.43:036][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.05-22.28.43:053][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.05.05-22.28.43:054][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Intermediate/Shaders/WorkingDirectory/8488/).
+[2017.05.05-22.28.43:055][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Diana/AppData/Local/Temp/UnrealShaderWorkingDir/26AC6FE944C02D7C8509E9AC41B9FA30/'.
+[2017.05.05-22.28.43:055][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.05-22.28.47:681][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.05-22.28.47:920][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.05-22.28.48:160][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.05-22.28.48:396][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.05-22.28.48:636][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.05-22.28.48:881][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.05-22.28.49:119][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.05-22.28.49:354][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.05-22.28.49:552][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.05-22.28.49:787][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.05-22.28.50:020][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.05-22.28.50:253][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.05-22.28.50:487][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.05-22.28.50:723][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.05-22.28.50:953][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.05-22.28.51:420][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.05-22.28.51:420][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.05-22.28.51:587][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.05-22.28.51:935][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.05-22.28.52:088][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.05-22.28.52:321][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.05-22.28.52:555][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.05-22.28.52:787][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.05-22.28.53:021][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.05-22.28.53:021][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.05-22.28.54:909][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.05-22.28.55:093][  0]LogDerivedDataCache: Loaded boot cache 0.18s 51MB C:/Users/Diana/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.05-22.28.55:093][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diana/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.05-22.28.55:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.05-22.28.55:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.05-22.28.55:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.05-22.28.55:094][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.05-22.28.55:172][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.05-22.28.55:188][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diana/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.05-22.28.55:224][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.05-22.28.55:227][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-22.28.55:227][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-22.28.56:464][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-22.28.56:474][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.05-22.28.57:350][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.05-22.28.57:538][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.05-22.28.57:737][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.05-22.28.57:737][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.05-22.28.57:737][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.05-22.28.59:794][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: vrproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2635692910
+[2017.05.05-22.28.59:917][  0]LogAssetRegistry: FAssetRegistry took 0.0230 seconds to start up
+[2017.05.05-22.29.00:181][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.122133 seconds
+[2017.05.05-22.29.00:204][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.05-22.29.00:205][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.05-22.29.00:205][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.05-22.29.00:526][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.05-22.29.08:694][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.05-22.29.08:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.05-22.29.10:595][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.05-22.29.12:193][  0]SourceControl: Info Source control is disabled
+[2017.05.05-22.29.12:194][  0]SourceControl: Info Source control is disabled
+[2017.05.05-22.29.12:398][  0]SourceControl: Info Source control is disabled
+[2017.05.05-22.29.12:598][  0]SourceControl: Info Source control is disabled
+[2017.05.05-22.29.17:992][  0]LogEngine: Initializing Engine...
+[2017.05.05-22.29.17:994][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.05-22.29.18:942][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.05-22.29.18:972][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-22.29.19:066][  0]LogInit: FAudioDevice initialized.
+[2017.05.05-22.29.19:142][  0]LogDerivedDataCache: Saved boot cache 0.08s 51MB C:/Users/Diana/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.05-22.29.19:163][  0]LogInit: Texture streaming: Enabled
+[2017.05.05-22.29.19:588][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.05-22.29.19:963][  0]LogInit: Transaction tracking system initialized
+[2017.05.05-22.29.21:458][  0]BlueprintLog: New page: Editor Load
+[2017.05.05-22.29.25:272][  0]LocalizationService: Info Localization service is disabled
+[2017.05.05-22.29.28:144][  0]LogConsoleResponse:Display: 
+[2017.05.05-22.29.28:674][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.05-22.29.28:674][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.05-22.29.28:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Content/' took 0.02s
+[2017.05.05-22.29.33:450][  0]SourceControl: Info Source control is disabled
+[2017.05.05-22.29.33:451][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.05-22.29.33:452][  0]LightingResults: New page: Lighting Build
+[2017.05.05-22.29.33:631][  0]MapCheck: New page: Map Check
+[2017.05.05-22.29.33:631][  0]LightingResults: New page: Lighting Build
+[2017.05.05-22.29.33:933][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.05.05-22.29.34:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.05-22.29.34:032][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.05-22.29.34:315][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 282.391ms to complete.
+[2017.05.05-22.29.34:315][  0]LogFileHelpers: Loading map 'StartupMap' took 0.865
+[2017.05.05-22.29.34:428][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-22.29.34:428][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-22.29.34:892][  0]LogCollectionManager: Loaded 0 collections in 0.005869 seconds
+[2017.05.05-22.29.35:118][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/Collections/' took 0.01s
+[2017.05.05-22.29.35:118][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Content/Developers/Diana/Collections/' took 0.01s
+[2017.05.05-22.29.35:118][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Content/Collections/' took 0.01s
+[2017.05.05-22.29.35:118][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.05.05-22.29.35:151][  0]LogContentBrowser: Native class hierarchy populated in 0.0317 seconds. Added 2245 classes and 453 folders.
+[2017.05.05-22.29.35:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.05-22.29.35:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.05-22.29.35:443][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.05.05-22.29.35:598][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.05.05-22.29.35:784][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.05.05-22.29.35:984][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.05-22.29.36:009][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.05-22.29.36:236][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.05.05-22.29.36:236][  0]LogLoad: (Engine Initialization) Total time: 61.86 seconds
+[2017.05.05-22.29.36:236][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.05.05-22.29.36:236][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.05-22.29.36:236][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.05-22.29.36:259][  0]LogOcInput: OculusInput pre-init called
+[2017.05.05-22.29.36:287][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.05-22.29.36:290][  0]LogSlate: Took 0.000628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.05-22.29.36:305][  0]LogSlate: Took 0.001001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.05-22.29.36:326][  0]LogSlate: Took 0.000828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.05-22.29.36:704][  0]LogRenderer: Reallocating scene render targets to support 804x356 NumSamples 1 (Frame:2).
+[2017.05.05-22.29.37:665][  1]LogSlate: Took 0.000513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.05-22.29.38:019][  6]LogAssetRegistry: Asset discovery search completed in 38.1249 seconds
+[2017.05.05-22.29.38:020][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000019 seconds (found 0 objects)
+[2017.05.05-22.29.38:020][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
+[2017.05.05-22.29.42:906][177]LogSlate: Took 0.000659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.05-22.29.44:133][177]LogSlate: Took 0.000651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.05-22.29.45:056][177]LogStaticMesh: Building static mesh fish_effects_cache...
+[2017.05.05-22.29.45:442][177]LogStaticMesh: Built static mesh [0.39s] /Game/fish_effects_cache.fish_effects_cache
+[2017.05.05-22.29.45:813][177]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.05.05-22.29.46:019][177]Cmd: MAP LOAD FILE="../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.05-22.29.46:019][177]LightingResults: New page: Lighting Build
+[2017.05.05-22.29.46:025][177]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.05.05-22.29.46:028][177]MapCheck: New page: Map Check
+[2017.05.05-22.29.46:028][177]LightingResults: New page: Lighting Build
+[2017.05.05-22.29.46:120][177]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.05-22.29.46:201][177]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.05-22.29.46:409][177]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 208.665ms to complete.
+[2017.05.05-22.29.46:411][177]LogFileHelpers: Loading map 'MotionControllerMap' took 0.395
+[2017.05.05-22.29.54:282][434]MapCheck: New page: Map Check
+[2017.05.05-22.29.54:321][434]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.05-22.29.54:322][434]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.05-22.29.54:456][434]LightingResults: New page: Lighting Build - May 5, 2017, 8:29:54 AM
+[2017.05.05-22.29.54:646][434]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.05-22.29.56:419][434]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.05-22.29.56:462][434]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.05-22.29.58:557][434]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.05-22.29.58:557][434]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8488
+[2017.05.05-22.30.02:387][434]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.05-22.30.02:387][434]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.05-22.30.02:388][434]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.05-22.30.02:388][434]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.05-22.30.02:388][434]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.05-22.30.03:303][434]LogEditorBuildUtils: Build time 0:08
+[2017.05.05-22.30.03:462][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Button_Joy, compiling. 
+[2017.05.05-22.30.03:465][435]LogTemp:Display: Added material ShaderMap 0x00000232D3430F00 with Material 0x00000232CBA94A00 to ShaderMapsBeingCompiled
+[2017.05.05-22.30.03:482][435]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Button_Joy, GameThreadShaderMap 0x00000232D3430F00
+[2017.05.05-22.30.03:493][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Button_Joy, compiling. 
+[2017.05.05-22.30.03:496][435]LogTemp:Display: Added material ShaderMap 0x00000232CD889600 with Material 0x00000232CBA94100 to ShaderMapsBeingCompiled
+[2017.05.05-22.30.03:507][435]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Button_Joy, GameThreadShaderMap 0x00000232CD889600
+[2017.05.05-22.30.06:095][436]LogTemp:Display: Finished compile of shader map 0x00000232D3430F00
+[2017.05.05-22.30.06:095][436]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Button_Joy complete, GameThreadShaderMap 0x00000232D3430F00, marking material FLightmassMaterialRenderer M_Button_Joy as finished
+[2017.05.05-22.30.06:095][436]LogTemp:Display: Marking material as finished 0x00000232CBA94A00
+[2017.05.05-22.30.06:103][436]LogTemp:Display: Finished compile of shader map 0x00000232CD889600
+[2017.05.05-22.30.06:103][436]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Button_Joy complete, GameThreadShaderMap 0x00000232CD889600, marking material FLightmassMaterialRenderer M_Button_Joy as finished
+[2017.05.05-22.30.06:103][436]LogTemp:Display: Marking material as finished 0x00000232CBA94100
+[2017.05.05-22.30.18:551][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fish_effects_cache)
+[2017.05.05-22.30.27:190][890]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.05-22.30.27:210][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.05.05-22.30.27:210][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.05-22.30.27:213][890]PIE: New page: PIE session: MotionControllerMap (May 5, 2017, 8:30:27 AM)
+[2017.05.05-22.30.27:213][890]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.05.05-22.30.27:232][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018198s)
+[2017.05.05-22.30.27:232][890]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.05.05-22.30.27:233][890]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2017.05.05-22.30.27:233][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.019734s)
+[2017.05.05-22.30.27:277][890]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-22.30.27:294][890]LogInit: FAudioDevice initialized.
+[2017.05.05-22.30.27:347][890]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.05-22.30.27:347][890]LogLoad: Game class is 'GameModeBase'
+[2017.05.05-22.30.27:353][890]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2017.05.05-15.30.27
+[2017.05.05-22.30.27:355][890]LogWorld: Bringing up level for play took: 0.004988
+[2017.05.05-22.30.27:433][890]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.05.05-22.30.27:443][890]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.027
+[2017.05.05-22.30.27:444][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.05.05-22.30.36:300][216]Job is a success!
+[2017.05.05-22.30.37:749][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.05.05-22.30.37:959][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.05.05-22.30.46:364][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fish_effects_cache)
+[2017.05.05-22.30.46:446][471]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.05-22.30.46:723][473]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.05-22.33.03:785][ 17]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.05-22.38.55:102][179]LogFactory: FactoryCreateFile: StaticMesh with AlembicImportFactory (0 0 ../../../../../../Users/Diana/Desktop/fish_effects_cache.abc)
+[2017.05.05-22.40.57:549][179]LogAlembicImport:Display: Running import for frame 311 to frame 421
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  5.043 ms
+[2017.05.05-22.40.57:550][179]LogAlembicImport:Display: Running import for frame 421 to frame 530
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.547 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.225 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.482 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.713 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.918 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.358 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.534 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.832 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.478 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.330 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.423 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  0.957 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.180 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.126 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.446 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.219 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.445 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.573 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.672 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.485 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.347 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.474 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.435 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.781 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.393 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.510 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.435 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.750 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.290 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.096 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.510 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.680 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.264 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.551 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.612 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.141 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.497 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.512 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.621 ms
+[2017.05.05-22.40.57:550][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.425 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.380 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.501 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.448 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.374 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.363 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.369 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.332 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.365 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.410 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.423 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.465 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.500 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.399 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.245 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.600 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.266 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.305 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.411 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  0.937 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.366 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.377 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.434 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.553 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  0.896 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.345 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.506 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  0.988 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.701 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.403 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.625 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.642 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.356 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.410 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.392 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.584 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.629 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.291 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.126 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  0.953 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.452 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.067 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.504 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.472 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.448 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.427 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.152 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.022 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.716 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.422 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.382 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.615 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.445 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.413 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.391 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.220 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.446 ms
+[2017.05.05-22.40.57:551][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.441 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.105 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.350 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.478 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.308 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.563 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.354 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.358 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.491 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.557 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.549 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.290 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.497 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.673 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.353 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.092 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.410 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.498 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.339 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.443 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.406 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.256 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.549 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.400 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.417 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.451 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.409 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.600 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.425 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.378 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.330 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.120 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.045 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.468 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.381 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.497 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.367 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.410 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.478 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.385 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.607 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.359 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.538 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.814 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.424 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.417 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.387 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.406 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.349 ms
+[2017.05.05-22.40.57:552][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.432 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.402 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.477 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.479 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.437 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.398 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.390 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.510 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.981 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.034 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.438 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.325 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.643 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.464 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.422 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.345 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.431 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.722 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.420 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.432 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.618 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.449 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.151 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.690 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.803 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.509 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.579 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.485 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.489 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.145 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.904 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.393 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.350 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.157 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.609 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.504 ms
+[2017.05.05-22.40.57:553][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.515 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.320 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.007 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.411 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.310 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.269 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.020 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.574 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.544 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.377 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.710 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.609 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.446 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.375 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.656 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.497 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.528 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.370 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.585 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.583 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.354 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.575 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.584 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.643 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.146 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.135 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.604 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.232 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.218 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.150 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.398 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.261 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.170 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.136 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.326 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.376 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.287 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.776 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.880 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.456 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.252 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.132 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.609 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.595 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.776 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.016 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.749 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  4.068 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.186 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.443 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.329 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  5.240 ms
+[2017.05.05-22.40.57:554][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  4.049 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.250 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.009 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.856 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.828 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.626 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.217 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.580 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.926 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.598 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.833 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.132 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.977 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.847 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.646 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.259 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.279 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.156 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.845 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.901 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.055 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.943 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.967 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.948 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.758 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.888 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.210 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.723 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.417 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.810 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.236 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.375 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.872 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.425 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.714 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.832 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.102 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.234 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.123 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.879 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.012 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.960 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.674 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.910 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.928 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.615 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.078 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.476 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.546 ms
+[2017.05.05-22.40.57:555][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.646 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.836 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.509 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.667 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.764 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.326 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.470 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.871 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.808 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.394 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.159 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.387 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.224 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.983 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.610 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.783 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.568 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.936 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.036 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.721 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.911 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.657 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.862 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.948 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.621 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.997 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.092 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.978 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.805 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.632 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.082 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  4.582 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.180 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.542 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.487 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.319 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.890 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.556 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.386 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.821 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.400 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.659 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.898 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.915 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.536 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.093 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.134 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.464 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.157 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.189 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.413 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.324 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.121 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.264 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.311 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.359 ms
+[2017.05.05-22.40.57:556][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.572 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.789 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.358 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.473 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.147 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.108 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.313 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.576 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.663 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.679 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.307 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.841 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.168 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.315 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.672 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  3.500 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.566 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.292 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.734 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.364 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.215 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.762 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.505 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.856 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.478 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.693 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.990 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.338 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.499 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.913 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.918 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.452 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.652 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.059 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.058 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.035 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.693 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.185 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.018 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.221 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.562 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.696 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.047 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.110 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.961 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.875 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.352 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.224 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.387 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.617 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.171 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.629 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.611 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.124 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.168 ms
+[2017.05.05-22.40.57:557][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.317 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.212 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.033 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.316 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.836 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.039 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.996 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.392 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.139 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.603 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.410 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.752 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.455 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.946 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.507 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.760 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.332 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.502 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.110 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.901 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.264 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.498 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.909 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.980 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.365 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.935 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.873 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.004 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.114 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.647 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.913 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.652 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.504 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.318 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.558 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.034 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.375 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.468 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  2.386 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.647 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.638 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.275 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.862 ms
+[2017.05.05-22.40.57:558][179]LogStats:     STAT_ALEMBIC_GenerateAbcMesh -  1.294 ms
+[2017.05.05-22.40.57:558][179]LogStats: Alembic_FAbcMeshDataImportRunnable::Run - 4439.636 ms
+[2017.05.05-22.40.57:558][179]LogStats: Alembic_FAbcMeshDataImportRunnable::Run - 4436.940 ms
+[2017.05.05-22.40.57:559][179]LogStats:            Alembic_ReadTrackData - 25352.199 ms
+[2017.05.05-22.40.57:565][179]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FAbcMeshDataImportRunnable///Thread_1290_0///####STATCAT_Advanced#### old //STATGROUP_Threads//FAbcMeshDataImportRunnable///Thread_e4c_0///####STATCAT_Advanced####
+[2017.05.05-22.40.57:796][179]AssetTools: New page: Importing fish_effects_cache.abc
+[2017.05.05-22.40.59:044][197]LogSlate: Took 0.001382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.05-22.41.08:687][326]LogSavePackage: Save=500.98ms
+[2017.05.05-22.41.08:687][326]LogSavePackage: Moving '../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/MotionControllerMap_Auto1965ADEBE413F7D3F33705CB40997E6FC.tmp' to '../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2017.05.05-22.41.08:692][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.05.05-22.41.08:698][326]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.639
+[2017.05.05-22.41.08:698][326]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.639
+[2017.05.05-22.41.08:702][326]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fish_effects_cache] ([1] browsable assets)...
+[2017.05.05-22.41.08:754][326]OBJ SavePackage:     Rendered thumbnail for [GeometryCache /Game/fish_effects_cache.fish_effects_cache]
+[2017.05.05-22.41.08:754][326]OBJ SavePackage: Finished generating thumbnails for package [/Game/fish_effects_cache]
+[2017.05.05-22.41.08:801][326]LogSavePackage: Save=42.80ms
+[2017.05.05-22.41.08:801][326]LogSavePackage: Moving '../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/fish_effects_cache_Auto1A9D77BBD4BCBD31B627ADC93FFA7938D.tmp' to '../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/Autosaves/Game/fish_effects_cache_Auto1.uasset'
+[2017.05.05-22.41.08:805][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Diana/Documents/Unreal Projects/VR-UW/Diana/VRProject/Saved/Autosaves/Game/fish_effects_cache_Auto1.uasset
+[2017.05.05-22.41.08:805][326]LogFileHelpers: Auto-saving content packages took 0.105
+[2017.05.05-22.41.32:098][837]Cmd: TRANSACTION UNDO
+[2017.05.05-22.41.32:098][837]LogEditorTransaction: Undo Scale Components
+[2017.05.05-22.41.33:126][864]Cmd: TRANSACTION UNDO
+[2017.05.05-22.41.33:126][864]LogEditorTransaction: Undo Edit Z
